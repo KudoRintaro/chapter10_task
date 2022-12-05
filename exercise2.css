@@ -62,3 +62,35 @@ footer{
   height: 50px;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width:768px){
+  header{
+    width: 100%;
+  }
+  
+  main{
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .box{
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .box:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: ;
+  }
+  
+  .box-image1,
+  .box-image2,
+  .box-image3{
+    height: 150px;
+  }
+
+  footer{
+    width: 100%;
+  }
+}
